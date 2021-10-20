@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="container">
+          <h2>Create Account</h2>
+        
+        <form action="#" method="POST" onSubmit="validasi()">
+        <div class="form-group">
+            <label for="file" >Upload Gambar</label><br>
+                <div class="custom-file">
+                    <input type="file" name="gambar"class="custom-file-input" id="file">
+                    <label class="custom-file-label text-muted" for="file">Pilih gambar</label>
+                </div>
+            </div>
+        <div class="form-group">
+            <label for="namalengkap">Nama Lengkap</label>
+            <input type="text" id="namalengkap" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="namapanggilan">Nama Panggilan</label>
+            <input type="text" id="namapanggilan" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="tempatlahir">Tempat Lahir</label>
+            <input type="text" id="tempatlahir" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="tanggallahir">Tanggal Lahir</label>
+            <input type="date" id="tanggallahir" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="usia">Usia</label>
+            <input type="hidden" id="result" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="jeniskelamin">Jenis Kelamin</label>
+            <input type="text" id="jeniskelamin" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="kota">Kota Tinggal</label>
+            <select name="kota" id="kota" class="form-control">
+                <option value="">Bandung</option>
+                <option value="">Jakarta</option>
+                <option value="">Bogor</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="nohp">No Hp</label>
+            <input type="text" id="nohp" class="form-control">
+        </div>
+        <div class="fform-group">
+            <label for="mediasosial">Media Sosial</label>
+            <select name="mediasosial" id="mediasosial" class="form-control">
+                <option value="">Facebook</option>
+                <option value="">Instagram</option>
+                <option value="">Twitter</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+    <script  src="./script.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
