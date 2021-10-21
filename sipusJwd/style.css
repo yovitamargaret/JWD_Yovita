@@ -6,7 +6,6 @@ body{
 	color:#4D4D4D;
 }
 
-
 #header2{
 	width:50%;
 	height:32px;
@@ -177,6 +176,10 @@ body{
 .container-form{
 	padding-left: 50px;
 	width: 100%;
+}
+
+.label-page{
+	margin-left: 20px;
 }
 
 
