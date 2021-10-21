@@ -13,7 +13,7 @@ $tgl=date('Y-m-d');
 	
 </head>
 <body >
-<nav class="navbar navbar-expand-lg navbar-light bg-color" style="background-color:cornflower;">
+<nav class="navbar navbar-expand-lg navbar-light bg-color" style="background-color:skyblue;">
         <a class="navbar-brand " href="index.php?p=beranda">Perpustakaan Umum</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
