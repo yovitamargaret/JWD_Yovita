@@ -54,19 +54,19 @@ $result = mysqli_fetch_array($q_id_buku);
 		judul_buku.focus();
 			return false;
 		}
-	}
+	
 
 	if (kategori.value == '') {
 		alert('Mohon isi data dengan lengkap !');
 		kategori.focus();
 			return false;
 		}
-	}if (pengarang.value == '') {
+	if (pengarang.value == '') {
 		alert('Mohon isi data dengan lengkap !');
 		pengarang.focus();
 			return false;
 		}
-	}if (penerbit.value == '') {
+	if (penerbit.value == '') {
 		alert('Mohon isi data dengan lengkap !');
 		penerbit.focus();
 			return false;
