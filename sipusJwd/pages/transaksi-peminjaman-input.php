@@ -10,12 +10,12 @@ $result = mysqli_fetch_array($q_id_transaksi);
 	<table id="tabel-input">
 		<tr>
 			<td class="label-formulir">ID Transaksi</td>
-			<td class="isian-formulir"><input type="text" name="id_transaksi" class="isian-formulir isian-formulir-border" value="<?= ++$result['idtransaksi'] ?>" readonly></td>
+			<td class="isian-formulir"><input type="text" name="id_transaksi" class="form-control" value="<?= ++$result['idtransaksi'] ?>" readonly></td>
 		</tr>
 		<tr>
 			<td class="label-formulir">Anggota</td>
 			<td class="isian-formulir">
-				<select name="id_anggota" id="nama" class="isian-formulir isian-formulir-border">
+				<select name="id_anggota" id="nama" class="form-control">
 					<option value="" select="selected"> Pilih Data Anggota </option>
 					<?php
 						$q_tampil_anggota=mysqli_query($db,
@@ -33,7 +33,7 @@ $result = mysqli_fetch_array($q_id_transaksi);
 		<tr>
 			<td class="label-formulir">Buku</td>
 			<td class="isian-formulir">
-				<select name="id_buku" class="isian-formulir isian-formulir-border">
+				<select name="id_buku" class="form-control">
 					<option value="" select="selected"> Pilih Data Buku </option>
 					<?php
 						$q_tampil_buku=mysqli_query($db,
@@ -50,7 +50,7 @@ $result = mysqli_fetch_array($q_id_transaksi);
 		</tr>
 		<tr>
 			<td class="label-formulir">Tanggal Pinjam</td>
-			<td class="isian-formulir"><input type="text" name="tgl_pinjam" value="<?php echo $tgl; ?>" readonly="readonly" class="isian-formulir isian-formulir-border warna-formulir-disabled"></td>
+			<td class="isian-formulir"><input type="text" name="tgl_pinjam" value="<?php echo $tgl; ?>" readonly="readonly" class="form-control"></td>
 		</tr>
 		<tr>
 			<td class="label-formulir"></td>
